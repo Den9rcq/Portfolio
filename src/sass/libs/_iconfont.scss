@@ -1,9 +1,9 @@
 @font-face {
   font-family: "icons";
-  src: url("../fonts/icons.eot?nserol");
-  src: url("../fonts/icons.eot?nserol#iefix") format("embedded-opentype"),
-    url("../fonts/icons.ttf?nserol") format("truetype"), url("../fonts/icons.woff?nserol") format("woff"),
-    url("../fonts/icons.svg?nserol#icons") format("svg");
+  src: url("../fonts/icons.eot?c8fwtc");
+  src: url("../fonts/icons.eot?c8fwtc#iefix") format("embedded-opentype"),
+    url("../fonts/icons.ttf?c8fwtc") format("truetype"), url("../fonts/icons.woff?c8fwtc") format("woff"),
+    url("../fonts/icons.svg?c8fwtc#icons") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -45,4 +45,13 @@
 }
 .icon-telegram-plane:before {
   content: "\e906";
+}
+.icon-twitter:before {
+  content: "\e907";
+}
+.icon-twitter-square:before {
+  content: "\e908";
+}
+.icon-vk:before {
+  content: "\e909";
 }

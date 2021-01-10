@@ -1,0 +1,15 @@
+.social {
+    font-size: 20px;
+    color: $text-color;
+    transition: 0.5s all;
+    &:hover {
+        text-decoration: none;
+        color: $main-color;
+        font-size: 25px;
+    }
+    &_w {
+        &:hover {
+            color: #fff;
+        }
+    }
+}
