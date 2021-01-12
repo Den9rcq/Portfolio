@@ -1,0 +1,87 @@
+.skills {
+    padding: 125px 0 0 0;
+    &__title {
+        position: relative;
+        text-align: center;
+        @include before_circle_centr;
+    }
+
+    &__subtitle {
+        text-align: center;
+    }
+    &__wrapper {
+        padding: 60px 10px 0 10px;
+        display: grid;
+        grid-template-columns: repeat(4, 270px);
+        grid-template-rows: repeat(2, minmax(270px, auto));
+        grid-auto-rows: auto;
+        gap: 13px;
+    }
+    &__item {
+        border: 1px solid #000000;
+    }
+    &__rating {
+        padding: 120px 0 0 0;
+        display: grid;
+        grid-template: repeat(2, 70px) / repeat(3, 350px);
+        gap: 30px 45px;
+    }
+}
+
+.item-skills {
+    &__column {
+        padding: 30px 30px 30px 25px;
+    }
+
+    &__img {
+        display: flex;
+        align-items: center;
+        min-height: 65px;
+    }
+
+    &__title {
+        margin: 20px 0 0 0;
+    }
+
+    &__decr {
+        font-size: 12px;
+        line-height: 18px;
+        margin: 15px 0 0 0;
+    }
+}
+
+.rating-skills {
+    &__item {
+        display: grid;
+        grid-template: minmax(21px, auto) 14px / 200px 35px;
+        justify-content: space-between;
+        align-items: space-between;
+    }
+
+    &__title {
+        position: relative;
+        padding: 0 0 0 13px;
+        @include before_circle;
+        &::before {
+            top: -8px;
+        }
+    }
+
+    &__counter {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    &__line {
+        width: 350px;
+        height: 14px;
+        background: #e8e4de;
+        border-radius: 4px;
+        span {
+            display: block;
+            height: 100%;
+            background: $main-color;
+            border-radius: 4px;
+        }
+    }
+}

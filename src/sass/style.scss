@@ -1,5 +1,5 @@
 // Libs
-@import "libs/bootstrap-reboot.min";
+@import "libs/null";
 @import "libs/iconfont";
 
 // Base
@@ -13,9 +13,16 @@
     margin: 0;
     padding: 0;
 }
+
 .container {
     max-width: 1140px;
     margin: 0 auto;
+}
+.divider {
+    width: 60px;
+    height: 3px;
+    background-color: $main-color;
+    margin: 25px auto 0 auto;
 }
 
 // Blocks
@@ -25,3 +32,6 @@
 @import "blocks/sidepanel";
 @import "blocks/menu";
 @import "blocks/social";
+@import "blocks/about";
+@import "blocks/resume";
+@import "blocks/skills";
