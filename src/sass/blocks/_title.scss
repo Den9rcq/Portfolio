@@ -22,4 +22,12 @@
     &_fz48 {
         font-size: 48px;
     }
+    &_tac {
+        text-align: center;
+    }
+    &_tac-circle {
+        position: relative;
+        text-align: center;
+        @include before_circle_centr;
+    }
 }

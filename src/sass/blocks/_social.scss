@@ -12,4 +12,10 @@
             color: #fff;
         }
     }
+    &_fz30 {
+        font-size: 30px;
+        &:hover {
+            font-size: 35px;
+        }
+    }
 }

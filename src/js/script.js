@@ -9,3 +9,11 @@ hamburger.addEventListener('click', () => {
 closeElem.addEventListener('click', () => {
     menu.classList.remove('active');
 });
+
+// Rating skills %
+const counters = document.querySelectorAll('.rating-skills__counter'),
+    lines = document.querySelectorAll('.rating-skills__line span');
+
+counters.forEach((item, i) => {
+    lines[i].style.width = item.innerHTML;
+});
