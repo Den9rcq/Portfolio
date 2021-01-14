@@ -15,7 +15,7 @@
 }
 
 .container {
-    max-width: 1140px;
+    width: 1140px;
     margin: 0 auto;
 }
 .divider {
@@ -38,3 +38,6 @@
 @import "blocks/portfolio";
 @import "blocks/price";
 @import "blocks/contacts";
+
+// Media
+@import "base/media";

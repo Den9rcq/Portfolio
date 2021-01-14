@@ -9,6 +9,7 @@
 
     &__photo {
         grid-row: 1/3;
+        @include object-fit;
     }
     &__title {
         position: relative;
